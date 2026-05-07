@@ -9,15 +9,15 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0c0e10;
-      --surface: #141618;
-      --border: #232629;
-      --text: #e8eaed;
-      --muted: #7a8390;
-      --accent: #5b9cf6;
-      --accent2: #a78bfa;
+      --bg: #0d0b14;
+      --surface: #130f1e;
+      --border: #2a2040;
+      --text: #ede9f8;
+      --muted: #8b7faa;
+      --accent: #a78bfa;
+      --accent2: #e879f9;
       --green: #4ade80;
-      --card: #181b1e;
+      --card: #1a1429;
     }
 
     html { scroll-behavior: smooth; }
@@ -37,8 +37,8 @@
       position: fixed;
       inset: 0;
       background-image:
-        linear-gradient(rgba(91,156,246,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(91,156,246,0.03) 1px, transparent 1px);
+        linear-gradient(rgba(167,139,250,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(167,139,250,0.04) 1px, transparent 1px);
       background-size: 40px 40px;
       pointer-events: none;
       z-index: 0;
@@ -96,7 +96,7 @@
       position: absolute;
       width: 600px; height: 600px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(91,156,246,0.12) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(167,139,250,0.15) 0%, transparent 70%);
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
       pointer-events: none;
@@ -170,12 +170,12 @@
 
     .btn-primary {
       background: var(--accent);
-      color: #0c0e10;
+      color: #0d0b14;
       font-weight: 500;
     }
 
     .btn-primary:hover {
-      background: #7ab3f8;
+      background: #c4b5fd;
       transform: translateY(-1px);
     }
 
@@ -300,9 +300,9 @@
     }
 
     .skill-tag.primary {
-      border-color: rgba(91,156,246,0.4);
+      border-color: rgba(167,139,250,0.4);
       color: var(--accent);
-      background: rgba(91,156,246,0.07);
+      background: rgba(167,139,250,0.07);
     }
 
     /* ── Projects ── */
@@ -328,7 +328,7 @@
     }
 
     .project-card:hover::before { transform: scaleX(1); }
-    .project-card:hover { border-color: rgba(91,156,246,0.3); transform: translateY(-3px); }
+    .project-card:hover { border-color: rgba(167,139,250,0.3); transform: translateY(-3px); }
 
     .project-header {
       display: flex;
